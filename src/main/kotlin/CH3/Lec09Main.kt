@@ -25,14 +25,6 @@ class Person2 (
         }
         get() = field.uppercase()
 
-    fun getUppercaseName(): String {
-        return this.name.uppercase()
-    }
-
-    val uppercaseName: String
-        get() = this.name.uppercase()
-
-
 
     // init 블럭은 생성자가 호출되는 시점에 호출이 된다.
     // 객체를 생성할때 validation 하는 로직을 넣어주는 용도로 사용할 수 있다.
